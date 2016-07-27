@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="myRegister">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="js/app.js" ></script>
+		<script type="text/javascript" src="js/controllers.js"></script>
+		<script type="text/javascript" src="js/services.js" ></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-sicau">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="tencent://message/?uin=729039337"><i class="fa fa-qq"></i></a>
+						</li>
+						<li>
+							<a href="http://weibo.com/u/1898377810"><i class="fa fa-weibo"></i></a>
+						</li>
+						<li>
+							<a href="mailto:729039337@qq.com"><i class="fa fa-envelope"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<h1 class="text-center">基于<strong>Angular.js</strong>的信息填报系统</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 form-box">
+						<div ui-view></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
