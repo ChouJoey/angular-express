@@ -1,0 +1,84 @@
+html {
+  background: #2ba3d4 url("../images/bg_teaser.svg") 50% 50% no-repeat;
+}
+body {
+  background: none;
+  font-family: "microsoft yahei";
+}
+.navbar-sicau {
+  background: none;
+}
+.navbar-sicau .navbar-nav > li > a {
+  color: #FFFFFF;
+  font-size: 1.3em;
+}
+.navbar-sicau .navbar-nav > li > a:hover,
+.navbar-sicau .navbar-nav > li > a:active,
+.navbar-sicau .navbar-nav > li > a:focus {
+  background-color: initial;
+}
+.navbar-sicau .navbar-nav > li.open > a {
+  background: none;
+}
+.navbar-sicau .navbar-header .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+.content {
+  padding: 40px 0 170px;
+}
+.content h1 {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.content .form-box {
+  padding-top: 20px;
+}
+.content .form-box .form-top {
+  overflow: hidden;
+  padding: 0 25px 15px;
+  background: #fff;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+.content .form-box .form-top .form-top-left {
+  float: left;
+  width: 75%;
+  padding-top: 25px;
+}
+.content .form-box .form-top .form-top-left h3 {
+  margin-top: 0;
+}
+.content .form-box .form-top .form-top-right {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  font-size: 66px;
+  color: #2ba3d4;
+  line-height: 100px;
+  text-align: right;
+}
+.content .form-box .form-bottom {
+  padding: 25px 25px 30px;
+  background: #eee;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+.content .form-box .form-bottom .form-lable {
+  line-height: 36px;
+}
+.content .form-box .form-bottom .form-input {
+  height: 36px;
+  margin: 0;
+  padding: 0 20px 0 15px;
+  vertical-align: middle;
+  background: #f8f8f8;
+  outline: none;
+  border: 3px solid #ddd;
+}
+.content .form-box .form-bottom .form-input:focus {
+  border-color: #CCCCCC;
+}
